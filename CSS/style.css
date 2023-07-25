@@ -1,0 +1,66 @@
+body{
+  text-align: center;
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.6), rgba(0,0,0,0.3), url('../Image/background.jpeg') );
+  background-color: grey;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  margin: 0%;
+  padding: 0%;
+
+}
+
+h2{color: blue;}
+
+table {
+    border-collapse: collapse;
+    margin: 50px auto;
+    background-color: whitesmoke;
+    box-shadow: 0 0 10px rgba(0,0, 0, 0.2);
+  }
+  
+  td {
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    font-size: 24px;
+    border: 1px solid black;
+    cursor: pointer;
+    background-color: lightblue;
+  }
+  
+  td.empty {
+    cursor: no-drop;
+  }
+  
+.info {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    color: red;
+  }
+.button{
+    padding: 10px 20px;
+  font-size: 16px;
+  background-color: blue;
+  color: white;
+  border: none;
+  cursor: pointer;
+  }
+  button:hover {
+    background-color: darkblue;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  
+  
+  
+  
+  
+  
+  

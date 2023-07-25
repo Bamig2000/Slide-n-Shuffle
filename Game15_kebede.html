@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slide'n'shuffle</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <script src="./JS/script.js"></script>
+</head>
+<body onload="startGame()">
+    <header>
+        <h1>
+            Welcome to Slide 'n' shuffle
+        </h1>
+        <h2>
+            Click 0 to start shuffling
+        </h2>
+    </header>
+    <table id="bkGameboard">
+    </table><br>
+    <button id="bkNewGameButton" class ="button" onclick="startGame()"> New Game </button>
+    <span id="bkMoves" class="info"></span>
+    <span id="bkgamescore" class="info"></span>
+    <span id="bkVictory" class="info"></span>
+</body>
+</html>
